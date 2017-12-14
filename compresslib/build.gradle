@@ -1,14 +1,14 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
-publish {
-    userOrg = 'lexluthors'
-    groupId = 'com.jaywei'
-    artifactId = 'compresstool'
-    publishVersion = '1.0.2'
-    desc = 'Android compress image or bitmap'
-    website = 'https://github.com/lexluthors/CompressTools-Android'
-}
+//publish {
+//    userOrg = 'lexluthors'
+//    groupId = 'com.jaywei'
+//    artifactId = 'compresstool'
+//    publishVersion = '1.0.2'
+//    desc = 'Android compress image or bitmap'
+//    website = 'https://github.com/lexluthors/CompressTools-Android'
+//}
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
